@@ -46,7 +46,7 @@ main {
 }
 
 #button2 {
-  color: hsl(179, 100%, 13%);
+  color: hsl(184, 100%, 22%);
 }
 
 #luxury {
@@ -59,7 +59,7 @@ main {
 }
 
 .card {
-  padding: 45px 45px 20px 45px;
+  padding: 45px 45px 40px 45px;
 }
 
 .heading {
@@ -72,15 +72,15 @@ main {
 .paragraph {
   font-family: 'lexend-deca';
   font-size: 0.9rem;
-  line-height: 2;
-  /* padding-right: 85px; */
+  line-height: 1.8;
+  padding-right: 40px;
   color: hsla(0, 0%, 100%, 0.75);
 }
 
 .button {
-  width: 50%;
+  width: 53%;
   margin-top: 20px;
-  height: 50px;
+  height: 45px;
   border-radius: 50px;
   border: 0;
   font-family: 'lexend-deca';
@@ -97,6 +97,7 @@ button:hover {
 @media screen and (min-width: 600px) {
   body {
     padding: 65px;
+    overflow: hidden;
   }
   .container {
     margin: 0 auto;
@@ -111,7 +112,11 @@ button:hover {
   #luxury {
     border-radius: 0 10px 10px 0;
   }
+  .paragraph {
+    padding-right: 15px;
+  }
   .button {
-    width: 70%;
+    width: 65%;
+    margin-top: 70px;
   }
 }
